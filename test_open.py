@@ -3,7 +3,7 @@ from unittest import TestCase
 import timm
 import os
 
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = ""
 model = timm.create_model("hf_hub:prov-gigapath/prov-gigapath", pretrained=True)
 
 
